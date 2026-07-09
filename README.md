@@ -78,18 +78,13 @@ snakemake results/plots/volcano_plot.png --cores 1
 snakemake -n
 ```
 
-See [USAGE.md](USAGE.md) for detailed usage instructions.
+See [docs\USAGE.md](USAGE.md) for detailed usage instructions.
 
 ## 📁 Project Structure
 
 ```
 RNA-seq-Differential-Expression/
 ├── README.md                      # This file
-├── INSTALLATION.md                # Detailed installation guide
-├── USAGE.md                       # Comprehensive usage guide
-├── WORKFLOW.md                    # Detailed workflow explanation
-├── CONFIGURATION.md               # Configuration options
-├── RESULTS.md                     # Guide to interpreting results
 ├── LICENSE                        # MIT License
 ├── .gitignore                     # Git ignore rules
 │
@@ -124,7 +119,12 @@ RNA-seq-Differential-Expression/
 │   └── Project-2_clean.ipynb
 │
 └── docs/                          # Additional documentation
-    └── FAQ.md
+    |── FAQ.md
+    ├── INSTALLATION.md                # Detailed installation guide
+    ├── USAGE.md                       # Comprehensive usage guide
+    ├── WORKFLOW.md                    # Detailed workflow explanation
+    ├── CONFIGURATION.md               # Configuration options
+    └── RESULTS.md                     # Guide to interpreting results
 ```
 
 ## 📈 Dataset Information
@@ -162,7 +162,7 @@ padj_threshold: 0.05
 top_n_genes: 50
 ```
 
-See [CONFIGURATION.md](CONFIGURATION.md) for detailed parameter descriptions.
+See [docs/CONFIGURATION.md](CONFIGURATION.md) for detailed parameter descriptions.
 
 ## 📊 Output Files
 
@@ -176,7 +176,7 @@ See [CONFIGURATION.md](CONFIGURATION.md) for detailed parameter descriptions.
 | `results/plots/pca_plot.png` | PCA plot showing sample clustering |
 | `results/plots/heatmap.png` | Heatmap of top differentially expressed genes |
 
-See [RESULTS.md](RESULTS.md) for detailed interpretation guide.
+See [docs/RESULTS.md](RESULTS.md) for detailed interpretation guide.
 
 ## ⚠️ Important Notes
 
@@ -194,7 +194,7 @@ This dataset has a **known limitation**: sequencing batch is strongly confounded
 - Examine PCA plots to visualize the confounding
 - For within-COVID analyses (e.g., viral load effects), batch adjustment is more appropriate
 
-See [WORKFLOW.md](WORKFLOW.md) for detailed discussion.
+See [docs/WORKFLOW.md](WORKFLOW.md) for detailed discussion.
 
 ## 🛠️ Troubleshooting
 
@@ -219,11 +219,11 @@ See [docs/FAQ.md](docs/FAQ.md) for more troubleshooting tips.
 
 ## 📚 Documentation
 
-- **[INSTALLATION.md](INSTALLATION.md)**: Detailed installation instructions
-- **[USAGE.md](USAGE.md)**: Comprehensive usage guide
-- **[WORKFLOW.md](WORKFLOW.md)**: Step-by-step workflow explanation
-- **[CONFIGURATION.md](CONFIGURATION.md)**: Configuration options
-- **[RESULTS.md](RESULTS.md)**: Interpreting results
+- **[docs/INSTALLATION.md](INSTALLATION.md)**: Detailed installation instructions
+- **[docs/USAGE.md](USAGE.md)**: Comprehensive usage guide
+- **[docs/WORKFLOW.md](WORKFLOW.md)**: Step-by-step workflow explanation
+- **[docs/CONFIGURATION.md](CONFIGURATION.md)**: Configuration options
+- **[docs/RESULTS.md](RESULTS.md)**: Interpreting results
 - **[docs/FAQ.md](docs/FAQ.md)**: Frequently asked questions
 
 ## 🤝 Contributing
