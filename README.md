@@ -241,7 +241,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   - [pyDESeq2](https://pydeseq2.readthedocs.io/) - Python implementation of DESeq2
   - [Snakemake](https://snakemake.readthedocs.io/) - Workflow management
   - [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) - Original R package
-  - Cline in VS Code and Claude Sonnet 4.5 model for documentation
+  - [Cline](https://docs.cline.bot/cline-overview) in VS Code and [Claude Sonnet 4.5](https://www.anthropic.com/news/claude-sonnet-4-5) for documentation
 
 ## 📧 Contact
 
