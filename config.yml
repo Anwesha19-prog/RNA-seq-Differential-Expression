@@ -1,0 +1,11 @@
+# Configuration file for SARS-CoV-2 differential expression analysis
+
+# Input data files
+counts_file: "data/GSE152075_raw_counts_GEO.txt"
+series_matrix_file: "data/GSE152075_series_matrix.txt"
+
+# Analysis parameters
+min_total_count: 10  # Minimum total count across all samples to keep a gene
+design_formula: "~ batch + condition"  # DESeq2 design formula
+padj_threshold: 0.05  # Adjusted p-value threshold for significance
+top_n_genes: 50  # Number of top DE genes to show in heatmap
